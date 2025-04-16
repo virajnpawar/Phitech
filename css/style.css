@@ -1017,19 +1017,24 @@ body .theme-button-one:hover {background:#ffd8d8; color:#dc3033 ;}
   background-image: url(../images/home/pattern2.png);
   padding: 40px 0;
 }
+
 .callout-banner .title {
   float: left;
   line-height: 40px;
   color: #fff;
-  width: 27%;
+  width: 40%;
+  padding-right: 20px;
 }
+
 .callout-banner p {
-  float: left;
+  float: right;
   color: #a9b3c8;
   padding-left: 70px;
-  width: 55%;
+  padding-right: 50px;
+  width: 60%;
   position: relative;
 }
+
 .callout-banner p:before {
   content: '';
   width: 4px;

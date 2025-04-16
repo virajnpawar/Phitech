@@ -35,8 +35,10 @@
   .theme-menu-wrapper .right-widget .cart-icon {margin-left: 15px;}
   .testimonial-section .wrapper {width: 65%;}
   .header-two .theme-menu-wrapper .bg-wrapper {padding-left: 215px;}
-  .callout-banner p {width: 52%;}
+  /* .callout-banner p {width: 52%;} */
   .callout-banner .theme-button-one {margin-top: 40px;}
+  .callout-banner .title {float: left; line-height: 40px; color: #fff; width: 40%; padding-right: 20px;}
+  .callout-banner p {float: right; color: #a9b3c8; padding-left: 70px; width: 60%; position: relative;}
   .our-solution .single-solution-block p {padding: 0;}
   .faq-section .wrapper .faq-content {padding-left: 30px;}
   .why-choose-us .single-block {padding-left: 75px;}
@@ -70,6 +72,7 @@
   .about-compnay img {display: none;}
   .service-style-one .contact-text {padding-top: 15px;}
   .service-style-one .contact-text h4 {font-size: 22px;}
+
   .testimonial-section .wrapper,.cunter-wrapper {width: 100%;}
   .testimonial-section .overlay {padding: 75px 0;}
   .theme-counter {padding: 0;}
@@ -115,7 +118,9 @@
   .theme-menu-wrapper .logo{padding-top:15%;}
   .header-one .top-header .address-wrapper .address:first-child {margin-right: 20px;}
   .feature-banner .opacity h2 {font-size: 38px;line-height: 50px;}
+  .col-md-6 {-ms-flex: 0 0 50%; flex: 0 0 50%;max-width: 100%};
   .service-style-one .single-service .text {padding-left: 10px;padding-right: 5px;}
+  .service-style-one .wrapper .row { display:flex; flex-direction: column; align-content: space-around; }
   .theme-footer-one .bottom-footer ul li a {margin-left: 20px;}
   .blog-details .single-blog .post-meta .mark-text .inner-text {padding-top: 80px;}
   .blog-details .single-blog .post-meta .mark-text .inner-text:before {top:10px;}
