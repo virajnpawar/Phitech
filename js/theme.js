@@ -189,7 +189,6 @@
         }
 
 
-        // ------------------------------- Partner Slider
         var pSlider = $ (".partner-slider");
         if(pSlider.length) {
             pSlider.owlCarousel({
@@ -209,41 +208,41 @@
                         items:3
                     },
                     992:{
-                        items:4
+                        items:3
                     },
                     1200:{
-                        items:5
+                        items:3
                     }
                 },
           })
         }
 
         // -------------------------------  Latest News Slider
-        var rpSlider = $ (".latest-news-slider");
-        if(rpSlider.length) {
-            rpSlider.owlCarousel({
-              loop:true,
-              nav: false,
-              dots:false,
-              autoplay:true,
-              margin:30,
-              autoplayTimeout:3500,
-              smartSpeed:1200,
-              autoplayHoverPause:true,
-              lazyLoad:true,
-              responsive:{
-                    0:{
-                        items:1
-                    },
-                    576:{
-                        items:2
-                    },
-                    992:{
-                        items:3
-                    }
-                },
-          })
-        }
+        // var rpSlider = $ (".latest-news-slider");
+        // if(rpSlider.length) {
+        //     rpSlider.owlCarousel({
+        //       loop:true,
+        //       nav: false,
+        //       dots:false,
+        //       autoplay:true,
+        //       margin:30,
+        //       // autoplayTimeout:3500,
+        //       smartSpeed:1200,
+        //       autoplayHoverPause:true,
+        //       lazyLoad:true,
+        //       responsive:{
+        //             0:{
+        //                 items:1
+        //             },
+        //             576:{
+        //                 items:2
+        //             },
+        //             992:{
+        //                 items:3
+        //             }
+        //         },
+        //   })
+        // }
 
 
         // -------------------------------  Core Value Slider
@@ -489,3 +488,23 @@
     })
     
 })(jQuery)
+
+
+
+
+
+
+
+
+
+
+
+const root = document.documentElement;
+const marqueeElementsDisplayed = getComputedStyle(root).getPropertyValue("--marquee-elements-displayed");
+const marqueeContent = document.querySelector("ul.marquee-content");
+
+root.style.setProperty("--marquee-elements", marqueeContent.children.length);
+
+for(let i=0; i<marqueeElementsDisplayed; i++) {
+  marqueeContent.appendChild(marqueeContent.children[i].cloneNode(true));
+}
