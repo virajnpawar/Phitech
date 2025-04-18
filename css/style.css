@@ -952,11 +952,11 @@ body .theme-button-one:hover {background:#ffd8d8; color:#dc3033 ;}
 }
 .theme-footer-one .bottom-footer ul li a:hover  {color: #fff;}
 /*---------------------- Theme footer Two ------------------*/
-.theme-footer-two {background: #dc3033;padding-top: 75px;}
+.theme-footer-two {background: #fdfdfd;padding-top: 75px; border-top: 1px solid #e6e6e6;}
 .theme-footer-two .logo-widget p {
   font-size: 17px;
   line-height: 25px;
-  color: #ffd8d8;
+  color: #000000;
   padding: 15px 0;
 }
 .theme-footer-two .logo-widget .social-icon li {display: inline-block;margin-right: 15px;}
@@ -978,7 +978,7 @@ body .theme-button-one:hover {background:#ffd8d8; color:#dc3033 ;}
   content: '';
   font-family: 'font-awesome';
   font-size: 10px;
-  color: #ffd8d8;
+  color: #000000;
   position: absolute;
   line-height: 35px;
   top:0;
@@ -987,9 +987,9 @@ body .theme-button-one:hover {background:#ffd8d8; color:#dc3033 ;}
 .theme-footer-two .top-footer .footer-list ul li a {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 17px;
-  color: #ffd8d8;
+  color: #000000;
 }
-.theme-footer-two .top-footer .footer-list ul li a:hover {color: #fff;}
+.theme-footer-two .top-footer .footer-list ul li a:hover {color: #dc3033;}
 .theme-footer-two .top-footer .footer-gallery .wrapper {padding: 11px 45px 0 0;}
 .theme-footer-two .top-footer .footer-gallery .wrapper .row {margin: 0 -3px;}
 .theme-footer-two .top-footer .footer-gallery .wrapper .row [class*="col-"] {padding: 0 3px;margin-bottom: 6px;}
@@ -998,14 +998,14 @@ body .theme-button-one:hover {background:#ffd8d8; color:#dc3033 ;}
 .theme-footer-two .top-footer .contact-widget ul li {
   font-size: 17px;
   line-height: 25px;
-  color: #ffd8d8;
+  color: #000000;
   position: relative;
   padding: 5px 0 12px 40px;
 }
 .theme-footer-two .top-footer .contact-widget ul li:last-child {padding-bottom: 0;}
 .theme-footer-two .top-footer .contact-widget ul li a {
   font-family: 'Source Sans Pro', sans-serif;
-  color: #ffd8d8;
+  color: #000000;
 }
 .theme-footer-two .top-footer .contact-widget ul li i {
   font-size: 22px;
@@ -1018,8 +1018,9 @@ body .theme-button-one:hover {background:#ffd8d8; color:#dc3033 ;}
   border-top:1px solid rgba(255,255,255,0.1);
   padding: 12px 0;
   text-align: center;
+  background-color: #dc3033;
 }
-.theme-footer-two .bottom-footer p {font-size: 17px;color: #ffd8d8;}
+.theme-footer-two .bottom-footer p {font-size: 17px;color: #ffffff; }
 /*----------------- CallOut Banner  --------------*/
 .callout-banner {
   background-color: #dc3033;
@@ -2086,6 +2087,7 @@ body .theme-button-one:hover {background:#ffd8d8; color:#dc3033 ;}
 }
 
 .marquee {
+  margin-bottom: 80px;
   width: var(--marquee-width);
   height: var(--marquee-height);
   background-color: #fff;
