@@ -141,7 +141,7 @@
   .faq-section .wrapper .faq-content {padding: 40px 15px;}
   .short-banner .overlay h2 {font-size: 38px;}
   .google-map-one {height: 250px;}
-  .why-we-best .wrapper .best-list-item {padding: 40px 15px 44px 15px;}
+  .why-we-best .wrapper .best-list-item {padding: 40px 15px 44px 29px;}
   .core-values .single-value-block .text {padding-left: 15px;padding-right: 15px;}
   .shop-page .shop-filter {margin-bottom: 35px;}
   .theme-pagination ul {padding-top: 10px;}
@@ -199,8 +199,8 @@
   .about-compnay-two .quote-form {padding: 25px 15px 30px 15px;}
   .our-case .single-case-block .hover-content .text {padding: 0 15px;}
   .our-case .view-all {margin-top: 35px;}
-  .why-we-best .wrapper .best-list-item li {padding-left: 55px;margin-bottom: 45px;}
-  .why-we-best .wrapper .best-list-item li .icon {font-size: 42px;}
+  .why-we-best .wrapper .best-list-item li {padding-left: 90px;margin-bottom: 45px;}
+  .why-we-best .wrapper .best-list-item li .icon {height: 42px;}
   .shop-page .single-product .image-box {min-height: 270px;padding: 0 5px;}
   .shop-page .single-product .product-name h5 {font-size: 20px;}
   .shop-details .product-details .product-tab .product-thumbnail {width: 40%;height: 290px;}

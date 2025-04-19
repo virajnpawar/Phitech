@@ -756,7 +756,7 @@ body .theme-button-one:hover {background:#ffd8d8; color:#dc3033 ;}
 .our-team .team-member .overlay .hover-content ul li a:hover {background: #fff;}
 .our-team .team-member .overlay .hover-content p {line-height: 25px;color: #fff;padding-top: 15px;}
 /*------------------ Theme Counter -------------------*/
-.theme-counter {background: #f8faff;padding: 55px 0;}
+.theme-counter {background: #f8faff;padding: 30px 0;}
 .theme-counter .bg {
   background: url(../images/home/pattern.png) no-repeat center center;
   text-align: center;
@@ -782,7 +782,7 @@ body .theme-button-one:hover {background:#ffd8d8; color:#dc3033 ;}
 .consultation-form .theme-title-one {margin-bottom: 55px;}
 .consultation-form .main-content {box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.08);}
 .consultation-form .img-box {
-  background: url(../images/home/10.jpg) no-repeat center;
+  background: url(../images/home/001.jpg) no-repeat center;
   background-size: cover;
   height: 500px;
   border-radius: 5px 0 0 5px;
@@ -963,7 +963,7 @@ body .theme-button-one:hover {background:#ffd8d8; color:#dc3033 ;}
 .theme-footer-two .logo-widget .social-icon li a {font-size: 15px;color: #ccd1dd;}
 .theme-footer-two .logo-widget .social-icon li a:hover {color: #fff;}
 .theme-footer-two .top-footer .title {
-  color: #fff;
+  color: #dc3033;
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
@@ -1067,6 +1067,10 @@ body .theme-button-one:hover {background:#ffd8d8; color:#dc3033 ;}
 .callout-banner.no-bg .theme-button-one {color: #fff;}
 /*------------------------- Our Solution -------------------*/
 .our-solution .single-solution-block {margin-top: 55px;text-align: center;background: #fff;}
+.our-solution .single-solution-block i {
+  color:#dc3033;
+  font-size: 80px;
+}
 .our-solution .single-solution-block .icon {margin: 0 auto;}
 .our-solution .single-solution-block h5 {margin: 26px 0 10px 0;}
 .our-solution .single-solution-block  p {padding: 0 22px;}
@@ -1123,7 +1127,7 @@ body .theme-button-one:hover {background:#ffd8d8; color:#dc3033 ;}
   left:0;
   width: 100%;
   height: 100%;
-  background: rgba(0,26,87,0.6);
+  background: #dc3033d9;;
   border-radius: 5px;
   -webkit-transform:scale(1,0);
           transform:scale(1,0);
@@ -1342,14 +1346,15 @@ body .theme-button-one:hover {background:#ffd8d8; color:#dc3033 ;}
   background-size: cover;
   background-attachment: fixed;
   background-color: #707d9e;
-  height: 570px;
+  height: 650px;
   margin-bottom: 270px;
 }
 .why-we-best .overlay {
-  background: rgba(0,26,87,0.9);
+  background:#dc3033e5;
   padding: 95px 0 0 0;
-  height: 570px;
+  height: 650px;
 }
+
 .why-we-best .theme-title-one h2 {color: #fff;}
 .why-we-best .theme-title-one h2:before {background: #ced7ec;}
 .why-we-best .theme-title-one p {color: #cad2e5;}
@@ -1362,7 +1367,7 @@ body .theme-button-one:hover {background:#ffd8d8; color:#dc3033 ;}
   background-size: cover;
   border-radius: 0 5px 5px 0;
   position: relative;
-  height: 500px;
+  height: 100%;
 }
 .why-we-best .wrapper .best-list-item {
   background: #fff;
@@ -1378,9 +1383,14 @@ body .theme-button-one:hover {background:#ffd8d8; color:#dc3033 ;}
 .why-we-best .wrapper .best-list-item li h5 {margin-bottom: 10px;}
 .why-we-best .wrapper .best-list-item li .icon {
   position: absolute;
-  top:-10px;
   left:0;
-  font-size: 60px;
+}
+
+.why-we-best .wrapper .best-list-item li .icon img {
+  margin-top: 20px;
+  height: 65px;
+ display: flex;
+
 }
 /*---------------- Core Values ----------------*/
 .core-values {background: #f8faff;padding: 95px 0 115px 0;}
@@ -1725,7 +1735,7 @@ body .theme-button-one:hover {background:#ffd8d8; color:#dc3033 ;}
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.08);
 }
 .contact-us-section .img-box {
-  background: url(../images/home/22.jpg) no-repeat center;
+  background: url(../images/home/001.jpg) no-repeat center;
   background-size: cover;
   height: 500px;
   border-radius: 5px 0 0 5px;
@@ -2087,7 +2097,7 @@ body .theme-button-one:hover {background:#ffd8d8; color:#dc3033 ;}
 }
 
 .marquee {
-  margin-bottom: 80px;
+  margin-bottom: 25px;
   width: var(--marquee-width);
   height: var(--marquee-height);
   background-color: #fff;
@@ -2095,6 +2105,7 @@ body .theme-button-one:hover {background:#ffd8d8; color:#dc3033 ;}
   overflow: hidden;
   position: relative;
 }
+
 .marquee:before, .marquee:after {
   position: absolute;
   top: 0;
@@ -2143,3 +2154,4 @@ body .theme-button-one:hover {background:#ffd8d8; color:#dc3033 ;}
   /* height: 100%; */
   /* border: 2px solid #eee; */
 }
+
