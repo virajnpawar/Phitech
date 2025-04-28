@@ -1,13 +1,6 @@
 /* CSS Document */
 
-/* 
-    Created on   : 23/05/2018.
-    Theme Name   : Charles-Business-Consulting HTML Template.
-    Version      : 1.0.
-    Author       : @CreativeGigs.
-    Developed by : Jubayer al hasan. (jubayer.hasan1991@gmail.com)
-   
-*/
+
 
 /* ------------------------------------------ */
 /*             TABLE OF CONTENTS
@@ -308,7 +301,7 @@ body .theme-button-one:hover {background:#ffd8d8; color:#dc3033 ;}
 }
 .header-one .top-header .address-wrapper .address:first-child {margin-right: 35px;}
 /*--------------------------- Theme Header Two  ---------------------*/
-.header-two .top-header {background: #dc3033;padding: 12px 0;}
+.header-two .top-header {background: #dc3033;padding: 5px 0;}
 .header-two .top-header .left-widget li {display: inline-block;color: #fff;font-size: 16px;}
 #polyglotLanguageSwitcher {margin-left:25px;}
 #polyglotLanguageSwitcher span.trigger:before {
@@ -336,7 +329,7 @@ body .theme-button-one:hover {background:#ffd8d8; color:#dc3033 ;}
 .theme-menu-wrapper .right-widget ul li {display: inline-block;line-height: 75px;vertical-align: middle;}
 .theme-menu-wrapper .right-widget .social-icon li a {
   font-size: 15px;
-  color: #ccd1dd;
+  color: #dc3033;
   margin: 0 7px;
 }
 .theme-menu-wrapper .right-widget .social-icon li a:hover {color: #fff;}
@@ -962,7 +955,7 @@ body .theme-button-one:hover {background:#ffd8d8; color:#dc3033 ;}
 }
 .theme-footer-two .logo-widget .social-icon li {display: inline-block;margin-right: 15px;}
 .theme-footer-two .logo-widget .social-icon li a {font-size: 15px;color: #ccd1dd;}
-.theme-footer-two .logo-widget .social-icon li a:hover {color: #fff;}
+.theme-footer-two .logo-widget .social-icon li a:hover {color: #dc3033;}
 .theme-footer-two .top-footer .title {
   color: #dc3033;
   font-size: 18px;
@@ -1336,7 +1329,7 @@ body .theme-button-one:hover {background:#ffd8d8; color:#dc3033 ;}
   background-color: #707d9e;
 }
 .theme-inner-banner .overlay {
-  background: #dc30338b;
+  background: #dc3033d0;
   text-align: center;
   padding: 110px 0 70px 0;
 }
@@ -1362,6 +1355,8 @@ body .theme-button-one:hover {background:#ffd8d8; color:#dc3033 ;}
 .why-we-best .wrapper {
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.08);
   margin: 55px 0 0 0;
+  border-radius: 10px;
+  overflow: hidden;
 }
 .why-we-best .wrapper .img-box {
   background: url(../images/home/16.jpg) no-repeat center center;
@@ -1372,8 +1367,7 @@ body .theme-button-one:hover {background:#ffd8d8; color:#dc3033 ;}
 }
 .why-we-best .wrapper .best-list-item {
   background: #fff;
-  padding: 65px 20px 65px 50px;
-  border-radius: 5px 0 0 5px;
+  padding: 65px 50px 65px 50px;
 }
 .why-we-best .wrapper .best-list-item li {
   position: relative;
@@ -2159,3 +2153,21 @@ body .theme-button-one:hover {background:#ffd8d8; color:#dc3033 ;}
 .redcol{
   color: #dc3033;
 }
+
+#mega-menu-holder ul li a::before {
+  content: none !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+
+
+

@@ -44,15 +44,19 @@
   .why-choose-us .single-block {padding-left: 75px;}
   .why-choose-us .single-block .icon {font-size: 55px;}
   .short-banner .overlay h2 {width: 80%;}
-  .why-we-best .wrapper .best-list-item {padding-top: 20px;padding-bottom: 29px;}
+  .why-we-best .wrapper .best-list-item {padding-top: 50px; padding-bottom: 50px;}
   .blog-details .single-blog .post-meta .mark-text .inner-text {padding-top: 60px;}
   .blog-details .single-blog .post-meta .mark-text .inner-text:before {top:0;}
 }
 /*(min-width: 992px) and (max-width: 1199px)*/
 
+@media (width: 991px) {
+  .theme-menu-wrapper{ height: 95PX;}
+}
+
 @media (max-width: 991px) {
   .theme-menu-wrapper{ height: 95PX;}
-  .theme-menu-wrapper .logo{padding-top:50%;}
+  .theme-menu-wrapper .logo{padding-top:19%;}
   .theme-menu-wrapper .menu-wrapper {padding-top: 2%;}
   #mega-menu-holder>ul> li.has-submenu> a {padding-right: 52px;}
   .section-spacing,.faq-section,.why-we-best,.error-page {margin-bottom: 80px;}
@@ -99,8 +103,8 @@
   .about-compnay-two .quote-form {margin-top: 40px;}
   .faq-section,.faq-section .overlay,.why-we-best,.why-we-best .overlay {height: auto;}
   .faq-section .overlay,.why-we-best .overlay {padding: 60px 0;}
-  .faq-section .wrapper .img-box,.why-we-best .wrapper .img-box,.contact-us-section .img-box {height: 250px;border-radius: 5px 5px 0 0;}
-  .faq-section .wrapper .faq-content,.why-we-best .wrapper .best-list-item,.contact-us-section .form-wrapper {border-radius: 0 0 5px 5px;}
+  .faq-section .wrapper .img-box,.contact-us-section .img-box {height: 250px;border-radius: 5px 5px 0 0;}
+  .faq-section .wrapper .faq-content,.contact-us-section .form-wrapper {border-radius: 0 0 5px 5px;}
   .short-banner .overlay h2 {width: 100%;}
   .theme-footer-two {padding-top: 60px;}
   .theme-footer-two .bottom-footer,.theme-footer-two .top-footer .title {margin-top: 0;}
@@ -110,6 +114,7 @@
   .theme-sidebar-one,.blog-sidebar {margin-top: 60px;}
   .contact-us-section .form-wrapper {height: auto;}
   #theme-main-banner .camera_pag {left:2px;}
+  .why-we-best .wrapper .img-box {display: none;}
 } 
 /*(max-width: 991px)*/
 
@@ -125,12 +130,14 @@
   .blog-details .single-blog .post-meta .mark-text .inner-text {padding-top: 80px;}
   .blog-details .single-blog .post-meta .mark-text .inner-text:before {top:10px;}
   #theme-main-banner {height: 600px !important;}
+  .why-we-best .wrapper .best-list-item {background: #fff; padding: 0 50px 45px 50px;}
+  .why-we-best .wrapper {padding-top: 45px; background-color: #fff;}
 }
 /*(min-width: 768px) and (max-width: 991px)*/
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .theme-menu-wrapper{ height: 95PX;}
-  .theme-menu-wrapper .logo{padding-top:20%;}
+  /* .theme-menu-wrapper .logo{padding-top:20%;} */
   .header-one .top-header {padding-bottom: 0;}
   .header-one .top-header .address-wrapper {display: none;}
   .testimonial-section .wrapper .bg {padding-left: 15px;padding-right: 15px;}
@@ -141,7 +148,6 @@
   .faq-section .wrapper .faq-content {padding: 40px 15px;}
   .short-banner .overlay h2 {font-size: 38px;}
   .google-map-one {height: 250px;}
-  .why-we-best .wrapper .best-list-item {padding: 40px 15px 44px 29px;}
   .core-values .single-value-block .text {padding-left: 15px;padding-right: 15px;}
   .shop-page .shop-filter {margin-bottom: 35px;}
   .theme-pagination ul {padding-top: 10px;}
@@ -155,17 +161,21 @@
   .google-map-two {height: 300px;}
   #theme-main-banner .camera_caption h1 br {display: none;}
   .error-page input {width: 100%;margin-top: 20px;}
+  .why-we-best .wrapper .best-list-item {background: #fff; padding: 0 50px 45px 50px;}
+  .why-we-best .wrapper {padding-top: 45px; background-color: #fff;}
 }
 /*(max-width: 767px)*/
 
 @media (min-width: 576px) and (max-width: 767px) {
   .theme-menu-wrapper{ height: 95PX;}
-  .theme-menu-wrapper .logo{padding-top:20%;}
+  /* .theme-menu-wrapper .logo{padding-top:20%;} */
   .header-two .top-header .social-icon li:first-child {margin-left: 0;}
   .our-case .single-case-block .hover-content .text {padding: 0;}
   #theme-main-banner {height: 500px !important;}
   #theme-main-banner .camera_caption p {font-size: 20px;}
   #theme-main-banner .camera_caption h1 {font-size: 50px;line-height: 60px;}
+  .why-we-best .wrapper .best-list-item {background: #fff; padding: 0 50px 45px 50px;}
+  .why-we-best .wrapper {padding-top: 45px; background-color: #fff;}
 }
 /*(min-width: 576px) and (max-width: 767px)*/
 
@@ -199,7 +209,7 @@
   .about-compnay-two .quote-form {padding: 25px 15px 30px 15px;}
   .our-case .single-case-block .hover-content .text {padding: 0 15px;}
   .our-case .view-all {margin-top: 35px;}
-  .why-we-best .wrapper .best-list-item li {padding-left: 90px;margin-bottom: 45px;}
+  .why-we-best .wrapper .best-list-item {padding: 0 30px 45px 30px;}
   .why-we-best .wrapper .best-list-item li .icon {height: 42px;}
   .shop-page .single-product .image-box {min-height: 270px;padding: 0 5px;}
   .shop-page .single-product .product-name h5 {font-size: 20px;}
@@ -236,6 +246,7 @@
   .service-style-one .single-service .text p {padding-bottom: 5px;}
   .shop-page .shop-filter {text-align: center;}
   .shop-page .shop-filter li,.project-details .project-details-sidebar .project-history li {width: 100%;}
+  .why-we-best .wrapper .best-list-item {padding: 0 30px 45px 30px;}
 }
 @media (max-width: 380px) {
   .theme-menu-wrapper{ height: 95PX;}
