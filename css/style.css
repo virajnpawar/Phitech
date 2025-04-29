@@ -2169,5 +2169,6 @@ input[type="number"] {
 }
 
 
-
-
+.bannerimg img{
+  width: 100vw;
+}
