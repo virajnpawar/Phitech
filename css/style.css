@@ -104,8 +104,8 @@
 }
 #loader {
   background: url(../images/1.gif);
-  width: 64px;
-  height: 40px;
+  width: 150px;
+  height: 150px;
   position: relative;
   top: 50%;
   margin: -20px auto 0 auto;
