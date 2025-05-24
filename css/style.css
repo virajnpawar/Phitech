@@ -2244,3 +2244,6 @@ input[type="number"] {
   animation-play-state: paused;
 }
 
+.bold{
+  font-weight: bold;
+}
