@@ -2208,7 +2208,7 @@ input[type="number"] {
 
 .logo-track {
   display: flex;
-  width: calc(250px * 27); /* Adjusted for 10 logos */
+  width: calc(250px * 35); /* Adjusted for 10 logos */
   animation: scroll 45s linear infinite;
 }
 
